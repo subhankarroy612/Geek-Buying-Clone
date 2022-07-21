@@ -14,17 +14,19 @@ document.querySelector("#blue").addEventListener("click", function (e) {
     let c = 0;
     details.map(function(ele, i){
 
-
-
-
       if(email === ele.Email){
         if(pass === ele.Password){
             alert("Welcome Back")
+            c++
             window.location.href = "http://127.0.0.1:5500/standing-army-2231/index.html"
         }else{
             alert("Wrong Password or Email")
         }
-      } 
+      }
+
     })
+    if(c === 0){
+      alert("Please enter correct details or Create an Account")
+    }
 
 })
