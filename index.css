@@ -6,6 +6,11 @@
 }
 
 /* header */
+
+#cart{
+    width: 30px;
+}
+
 #sale>img {
     width: 100%;
     height: 60px;
@@ -284,7 +289,6 @@ h1 {
 /* footer */
 footer{
     margin-top: 100px;
-    height: 100vh;
     background-color: rgba(135, 207, 235, 0.164);
 }
 
@@ -294,10 +298,81 @@ footer{
     font-size: 25px;
     font-weight: bold;
     color: #06f;
+    box-shadow: 0px 1px rgba(128, 128, 128, 0.295);
 }
 #why>span{
     padding-left: 10px;
 }
 
+#subscribe{
+    width: 40vw;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+#subscribe>input{
+    width: 40vw;
+    height:6vh;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+    border-color: #06f;
+    padding-left: 10px;
 
+}
+#subscribe>button{
+    font-size: medium;
+    border-radius: 0px 5px 5px 0px;
+    width: 120px;
+    border: none;
+    background-color: #06f;
+    color: white;
+}
+#help{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+ol{
+    line-height: 27px;
+}
+#popular,#prnt{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+}
+#popular>button{
+    width: 50%;
+    margin: auto;
+    width: 300px;
+    border: none;
+    height: 50px;
+    margin-top: 10px;
+    font-size: medium;
+    color: grey;
+}
+#prnt>div{
+    text-align: center;
+    color: grey;
+}
+#images{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+#images>img{
+    width: 100%;
+}
+#rec{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+#rec>div>img{
+    width: 100%;
+}
 
