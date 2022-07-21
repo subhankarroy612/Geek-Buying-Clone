@@ -11,6 +11,11 @@
     width: 30px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 #sale>img {
     width: 100%;
     height: 60px;
