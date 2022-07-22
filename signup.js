@@ -1,4 +1,4 @@
-
+let c = 0;
 document.querySelector("#create").addEventListener("click", details);
 let arr = JSON.parse(localStorage.getItem("signupData")) || []
 
@@ -16,7 +16,7 @@ function details(e) {
         Password: password,
         Code: code,
     }
-    if (name === "" || email === "" || password === "" || code === "") {
+    if ((name === "" || email === "" || password === "" || code === "") || (c%2 === 0)) {
         alert("Please fill all the details");
     } else {
         arr.push(obj);
@@ -24,3 +24,7 @@ function details(e) {
         window.location.href = "http://127.0.0.1:5500/standing-army-2231/signin.html"
     }
 }
+
+document.querySelector("#tick").addEventListener("click",function(){
+    c++
+})

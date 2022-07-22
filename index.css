@@ -44,26 +44,15 @@ a{
     box-shadow: 0px 0.5px white;
 }
 
-#save {
-    color: black;
-}
-
-#lang {
-    color: black;
-}
-
-#support {
-    color: black;
-}
-
 select {
-    margin-right: 8vw;
+    margin-right: 4vw;
     border: none;
     font-weight: bold;
     font-size: medium;
     background-color: transparent;
     color: white;
 }
+
 
 #searchBar>img:nth-child(1) {
     width: 160px
@@ -122,6 +111,24 @@ select {
 
 #movingPage {
     width: 60%;
+    position: relative;
+}
+#movingPage>button{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+#leftBtn{
+    left:10px
+}
+#rightBtn{
+    right: 10px;
 }
 
 #movingPage>img {
