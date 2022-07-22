@@ -28,6 +28,7 @@
 #la{
     display: none;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #lang:hover #la{
    display: block;
@@ -45,6 +46,7 @@
 #su{
     display: none;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #support:hover #su{
