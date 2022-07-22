@@ -7,6 +7,65 @@
 
 /* header */
 
+#bla{
+    display: none;
+    color: black;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#haba:hover #bla{
+    display: block;
+    position: absolute;
+    width: 300px;
+    background-color: white;
+}
+#haba{
+    margin-right: 4vw;
+    color: white;
+}
+
+#la{
+    display: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lang:hover #la{
+   display: block;
+   position: absolute;
+   width: 100px;
+   background-color: white;
+   border-radius: 10px;
+   padding: 10px;
+}
+#lang{
+    margin-right: 4vw;
+    color: white;
+}
+
+#su{
+    display: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#support:hover #su{
+    display: block;
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#support{
+    margin-right: 8vw;
+    color: white;
+}
+
+
+
+
+
 #cart{
     width: 30px;
 }
@@ -111,24 +170,24 @@ select {
 
 #movingPage {
     width: 60%;
-    position: relative;
+    /* position: relative; */
 }
 #movingPage>button{
-    position: absolute;
-    top: 50%;
+    position: relative;    
     width: 40px;
     height: 40px;
-    font-size: large;
     background-color: transparent;
     color: white;
     border: none;
     font-size: 30px;
 }
 #leftBtn{
-    left:10px
+    left: 2%;
+    bottom: 50%;
 }
 #rightBtn{
-    right: 10px;
+    left: 85%;
+    bottom: 50%;
 }
 
 #movingPage>img {
