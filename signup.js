@@ -3,6 +3,8 @@ document.querySelector("#create").addEventListener("click", details);
 let arr = JSON.parse(localStorage.getItem("signupData")) || []
 
 function details(e) {
+
+    e.preventDefault()
     
     let name = document.querySelector("#name").value;
     let email = document.querySelector("#email").value;
