@@ -312,6 +312,24 @@ h1 {
     color: grey;
 }
 /* popularBrands */
+
+#popularBrands>button{
+   position: relative;
+   width: 20px;
+   font-size: 30px;
+   font-weight: bold;
+   border: none;
+   background-color: transparent;
+}
+#popularBrands>button:nth-child(2){
+    bottom: 17vh;
+    left: 10px;
+}
+#popularBrands>button:nth-child(3){
+    left: 82vw;
+    bottom: 17vh;
+}
+
 #popularBrands>img{
     width: 100%;
 }

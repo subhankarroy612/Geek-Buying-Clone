@@ -5,6 +5,7 @@ let arr = JSON.parse(localStorage.getItem("signupData")) || []
 function details(e) {
 
     e.preventDefault()
+    
     let name = document.querySelector("#name").value;
     let email = document.querySelector("#email").value;
     let password = document.querySelector("#password").value;
@@ -21,7 +22,7 @@ function details(e) {
     } else {
         arr.push(obj);
         localStorage.setItem("signupData", JSON.stringify(arr))
-        window.location.href = "http://127.0.0.1:5500/standing-army-2231/signin.html"
+        alert("Signup Successful")
     }
 }
 

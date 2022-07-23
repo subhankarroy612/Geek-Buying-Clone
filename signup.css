@@ -4,6 +4,11 @@
     padding: 0px;
     font-family: "Open Sans",sans-serif !important;
 }
+#sign{
+    text-decoration: none;
+    padding-left: 80px;
+    font-size: medium;
+}
 header{
     background-image: linear-gradient(to bottom, #318FFB, #06f);
     align-items: center;

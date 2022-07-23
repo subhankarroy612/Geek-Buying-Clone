@@ -18,7 +18,7 @@ document.querySelector("#blue").addEventListener("click", function (e) {
         if(pass === ele.Password){
             alert("Welcome Back")
             c++
-            window.location.href = "http://127.0.0.1:5500/standing-army-2231/index.html"
+            window.location.href = "http://127.0.0.1:5500/index.html"
         }else{
             alert("Wrong Password or Email")
         }

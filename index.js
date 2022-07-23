@@ -23,3 +23,27 @@ document.querySelector("#rightBtn").addEventListener("click", function () {
     catchImage.src = imagesLink[c]
 })
 
+let arr = [
+    "https://img.gkbcdn.com/bn/2205/1500x260-628f67db2b40c91f8ca376f8._p1_.jpg",
+    "https://img.gkbcdn.com/bn/2205/1500x2603-628f67f02b40c91f8ca376fa._p1_.jpg",
+    "https://img.gkbcdn.com/bn/2205/1500x2602-628f67e92b40c91f8ca376f9._p1_.jpg"
+]
+
+let image = document.querySelector("#popularBrands>img");
+let c1 = 0;
+
+document.querySelector("#leftButton").addEventListener("click",function(){
+   c1--
+   if(c1 < 0){
+     c1 = arr.length - 1
+   } 
+    image.src = arr[c1]
+})
+
+document.querySelector("#rightButton").addEventListener("click",function(){
+    c1++
+    if(c1 === arr.length){
+      c1 = 0;
+    } 
+    image.src = arr[c1];
+ })
