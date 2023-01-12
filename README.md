@@ -23,13 +23,13 @@ ___
  ## Glipms of project
 __
 
-   - ###Homepage 
+   - ### Homepage 
 <img src="https://i.imgur.com/jKqeXyD.png" alt="homepage" />
 
 
-   - ###Login 
+   - ### Login 
 <img src="https://i.imgur.com/QnXIBAv.jpg" alt="login" />
 
 
-   - ###Sign up 
+   - ### Sign up 
 <img src="https://i.imgur.com/iIne7cE.jpg" alt="singup" />
